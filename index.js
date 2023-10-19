@@ -1,15 +1,19 @@
-// const hamburger = document.querySelector(".hamburger");
-// const navMenu = document.querySelector(".nav");
+const navMenu = document.getElementById("nav-menu"),
+      navToggle = document.getElementById("nav-toggle"),
+      navClose = document.getElementById("nav-close")
 
 
-// hamburger.addEventListener("click", () =>{
-//     hamburger.classList.toggle("active");
-//     navMenu.classList.toggle("active");
-// })
+
+      if(navToggle){
+        navToggle.addEventListener("click", () =>{
+            navMenu.classList.add("show-menu")
+        })
+
+      }
 
 
-// document.querySelectorAll(".list-item").forEach(n => n.
-//     addEventListener("click", () => {
-//         hamburger.classList.remove("active")
-//         navMenu.classList.remove("active")
-//     }))
+      if(navClose){
+        navClose.addEventListener("click",()=>{
+         navMenu.classList.remove("show-menu")
+        })
+      }

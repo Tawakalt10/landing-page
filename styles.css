@@ -6,12 +6,14 @@
     box-sizing: border-box;
     font-family: 'Alata', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
+    
 }
 
 .header{
     background: url(/images/desktop/image-hero.jpg);
     height: 100vh;
     color:  hsl(0, 0%, 100%);
+   
     
 }
 
@@ -31,23 +33,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding-left: 25rem; */
 
 }
 
-.hamburger{
-    display: none; 
+.nav__toggle,
+.nav__close{
+    display: flex;
+    font-size: 1.2rem;
     cursor: pointer;
+    display: none;
+    
 }
 
-.bar{
-    display: block;
-    width: 1.5rem;
-    height: 3px;
-    margin: 5px auto;
-    transition: all 0.3s ease-in-out; 
-    background-color: hsl(0, 0%, 100%);
-}
+
 .nav, .list-item{
     list-style-type: none;
     margin: 1.3rem 1.5rem;
@@ -216,23 +214,42 @@ a:hover {
     height: auto;
     }
 
- }
+     .nav__menu{
+        position: fixed;
+        top: -100%;
+        left: 0;
+        background-color: hsl(0, 0%, 0%);
+        width: 100%;
+        padding-block: 5rem 4.5rem;
+        transition: top .4s;
+    }
 
- .list-item-loop{
+    .nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+
+}
+.nav__toggle,
+.nav__close{
+    display: flex;
+    font-size: 1.2rem;
+    cursor: pointer;
     display: block;
-    font-weight: bolder;
-    margin-top: 1.5rem;
-    margin-bottom: 5rem;
-    margin-left: 1.5rem;
+    
+}
 
- }
+.nav__close{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+}
 
- .list-item{
-    /* margin: 1rem 0; */
- }
+.show-menu{
+    top: 0;
+}
 
- .nav.active{
-    left: 0;
  }
 
   div.interactive>* {
@@ -266,9 +283,7 @@ a:hover {
     margin: 0;
     
 }
-.creation-head{
-/* position: absolute; */
-}
+
 
 .creation-heading{
     text-align: center;
@@ -367,13 +382,14 @@ a:hover {
 }
 
 
-@media(max-width: 500px){
+@media screen and (max-width: 500px){
     
 
  .header{
     background: url(/images/desktop/image-hero.jpg) no-repeat center fixed ;
     background-size: cover;
     height: auto;
+     overflow: hidden;
 
 }
 
@@ -381,6 +397,16 @@ a:hover {
     max-width: 70%;
     height: min-content;
   }
+  
+  .immersive{
+    text-align: center;
+    font-size: 1.4rem;
+    padding-inline: 2rem;
+    padding: 1rem;
+    margin-bottom: 6rem;
+    letter-spacing: 1.5px;
+  }
+
 
 
 }
@@ -435,7 +461,7 @@ a:hover {
     /* padding: 3rem; */
    
 }
-   .img-wrapper img{
+   /* .img-wrapper img{ */
     /* display: flex; */
     /* max-width: 70%;
     height: min-content; */
@@ -455,7 +481,6 @@ a:hover {
  .footer{
     background-color: hsl(0, 0%, 0%);
     color: white;
-    /* margin: .5rem .5rem; */
      height: 30vh;
      
 }
@@ -473,7 +498,6 @@ a:hover {
 
 .nav-footer, .list-item-ft{
     list-style-type: none;
-    /* margin: 0 1rem; */
     font-size: .8rem;
 }
 
@@ -485,5 +509,5 @@ a:hover {
     padding-right: 1rem;
     height: fit-content;
 }
-}
+
 
