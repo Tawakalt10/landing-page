@@ -274,14 +274,14 @@ a:hover {
 
 .interactive-img{
     max-width: 80%;  
-    margin-right: 4rem;
+    margin-right:6rem;
     
           
 }
 
 .interactive-story{
    margin: 0 0;
-   left: 5%;
+   left: -4%;
    
     
 }
@@ -297,6 +297,12 @@ a:hover {
     
 }
 
+.creation-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 .creation-heading{
     text-align: center;
@@ -308,6 +314,7 @@ a:hover {
 .creation-btn{
     width: 5rem;
     font-size: .8rem;
+    outline: none;
 
  } 
 
