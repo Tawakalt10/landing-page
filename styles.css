@@ -7,6 +7,7 @@
     font-family: 'Alata', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
     
+    
 }
 
 .header{
@@ -185,9 +186,7 @@ a:hover {
    
 }
 
- .loop-footer{
-     /* margin-right: 35rem;  */
- } 
+ 
 
  .nav-footer{
     display: flex;
@@ -226,7 +225,7 @@ a:hover {
         top: -100%;
         left: 0;
         background-color: hsl(0, 0%, 0%);
-        width: 100%;
+        width: 90%;
         padding-block: 5rem 4.5rem;
         transition: top .4s;
         height: auto;
@@ -252,7 +251,7 @@ a:hover {
 .nav__close{
     position: absolute;
     top: 1rem;
-    right: 1.5rem;
+    right: 3rem;
 }
 
 .show-menu{
@@ -269,11 +268,11 @@ a:hover {
 }
 
 .interactive{
-    width: 300%;
+    width:18rem; 
 }
 
 .interactive-img{
-    max-width: 80%;  
+    width: 100%;  
     margin-right:6rem;
     
           
@@ -282,6 +281,7 @@ a:hover {
 .interactive-story{
    margin: 0 0;
    left: -4%;
+   width: 100%;
    
     
 }
