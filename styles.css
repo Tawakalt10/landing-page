@@ -225,7 +225,7 @@ a:hover {
         top: -100%;
         left: 0;
         background-color: hsl(0, 0%, 0%);
-        width: 90%;
+        width: 100%;
         padding-block: 5rem 4.5rem;
         transition: top .4s;
         height: auto;
@@ -273,7 +273,7 @@ a:hover {
 
 .interactive-img{
     width: 100%;  
-    margin-right:6rem;
+    margin-right:8rem;
     
           
 }
