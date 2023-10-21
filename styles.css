@@ -405,7 +405,7 @@ a:hover {
     background: url(/images/desktop/image-hero.jpg) no-repeat center fixed ;
     background-size: cover;
     height: auto;
-     overflow: hidden;
+    overflow: hidden;
 
 }
 
@@ -437,8 +437,8 @@ a:hover {
 }
 
   .img-wrapper img{
-     max-width: 70%;
-    height: min-content; 
+     max-width: 100%;
+    /* height: min-content;  */
     object-fit: cover ; 
   }
   
@@ -496,6 +496,15 @@ a:hover {
     
 }
 
+.creation-btn{
+    width: 5rem;
+    font-size: .8rem;
+    /* outline: none; */
+    color: hsl(0, 0%, 0%);
+    border: 1px solid hsl(0, 0%, 0%);
+
+ } 
+
 .creation-images{
     display: flex;
     flex-direction: column;
@@ -504,14 +513,15 @@ a:hover {
     /* padding: 3rem; */
    
 }
-   /* .img-wrapper img{ */
-    /* display: flex; */
-    /* max-width: 70%;
-    height: min-content; */
-    /* flex: 100%;
-    height: 10vh;
-    width: 100%; */
-  /* } */
+    .img-wrapper img{ 
+     display: flex; 
+     flex-direction: column;
+     object-fit:cover ;
+     max-width: 100%;
+     height: auto;
+    /* /* max-width: 70%; */
+    
+ } 
 
  .list-item{
     margin: .1rem .1;
