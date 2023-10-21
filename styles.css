@@ -263,8 +263,7 @@ a:hover {
     flex-direction: column; 
     align-items: center;  
     height: 70%;
-     
-         
+             
 }
 
 .interactive{
@@ -273,9 +272,7 @@ a:hover {
 
 .interactive-img{
     width: 100%;  
-    margin-right:7rem;
-    
-          
+    margin-right:7rem;          
 }
 
 .interactive-story{
@@ -287,14 +284,14 @@ a:hover {
 
 .interactive-heading{
     padding: 0;
-   
 }
+
 
 .interactive-para{
     font-size: .7rem;
-    margin: 0;
-    
+    margin: 0;    
 }
+
 
 .creation-head{
   display: flex;
@@ -399,8 +396,6 @@ a:hover {
     padding-top: 0rem;
 
 }
-
-
 }
 
 @media screen and (max-width: 500px){
@@ -414,9 +409,37 @@ a:hover {
 
 }
 
+
+ .interactive {
+    display: flex; 
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    /* position: relative;  */
+    max-width: 100%;
+
+}
+.interactive-img{
+  width: 70% ;
+  margin-left: 1rem;
+  margin-bottom: .5rem;
+  /* left: ; */
+
+}
+
+.interactive-story{
+    position:inherit;
+    margin-right: 6rem;
+
+}
+.img-wrapper{
+    padding: 0;
+}
+
   .img-wrapper img{
-    max-width: 70%;
-    height: min-content;
+     max-width: 70%;
+    height: min-content; 
+    object-fit: cover ; 
   }
   
   .immersive{
@@ -446,6 +469,7 @@ a:hover {
   width: 70% ;
   margin-left: 1rem;
   margin-bottom: .5rem;
+  /* left: ; */
 }
 
 .interactive-story{
