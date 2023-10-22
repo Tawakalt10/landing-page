@@ -468,7 +468,7 @@ a:hover {
 
 .interactive-img{
     position: relative; 
-    max-width: 50%;
+    width: 80%;
     margin-right:7rem;  
     overflow: hidden; 
     top: -20%;
