@@ -468,9 +468,9 @@ a:hover {
 
 .interactive-img{
     position: relative; 
-    width: 60%;
+    width: 50%;
     margin-right:7rem;  
-    /* overflow: hidden; */
+    overflow: hidden; 
     top: -20%;
 
 
@@ -480,7 +480,7 @@ a:hover {
 .interactive-story{
    margin: 2rem 0;
     left: -2%; 
-   max-width: 70%;
+   max-width: 60%;
     bottom: -30%; 
        
 }

@@ -30,13 +30,4 @@ const navMenu = document.getElementById("nav-menu"),
       navLink.forEach(n => n.addEventListener("click", linkAction))
 
 
-      // change background header
-
-      const bgHeader = () =>{
-        const header = document.getElementById("header")
-        // when the scroll is greater than 50 view height, add the bg.header
-
-        this.scrollY >= 50 ? header.classList.add("bg-header")
-                          : header.classList.remove("bg-header")
-      }
-      window.addEventListener("scroll", bgHeader)
+      
