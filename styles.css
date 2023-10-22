@@ -380,8 +380,8 @@ a:hover {
  .header{
     background: url(/images/desktop/image-hero.jpg) no-repeat center  ;
     background-size: cover;
-    height: auto;
-    overflow: hidden;
+    height: 90vh;
+    
 
 }
 
@@ -441,7 +441,12 @@ a:hover {
 
 
 @media screen and (max-width:400px){
-     
+       .header {
+    background: url(/images/desktop/image-hero.jpg) no-repeat ;
+    background-size: cover; 
+    height:90vh ; 
+    
+}
 
     .immersive{
     text-transform: uppercase;
