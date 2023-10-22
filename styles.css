@@ -6,17 +6,19 @@
     box-sizing: border-box;
     font-family: 'Alata', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
-    
+   
     
 }
 
 .header{
-    background: url(/images/desktop/image-hero.jpg);
+    background: url(/images/desktop/image-hero.jpg) no-repeat   ;
+    background-size: cover;
     height: 100vh;
     color:  hsl(0, 0%, 100%);
    
     
 }
+
 
 .loop{
     /* margin-left: 4rem;
@@ -186,7 +188,6 @@ a:hover {
    
 }
 
- 
 
  .nav-footer{
     display: flex;
@@ -214,9 +215,9 @@ a:hover {
 @media screen and (max-width: 1000px){
    
     .header {
-    background: url(/images/desktop/image-hero.jpg) no-repeat center;
+    background: url(/images/desktop/image-hero.jpg) no-repeat ;
     background-size: cover; 
-    height: auto; 
+    height:auto ; 
     
 }
 
@@ -262,34 +263,37 @@ a:hover {
     display: flex; 
     flex-direction: column; 
     align-items: center;  
-    height: 70%;
+    height: auto;
+    overflow: hidden;
+   
              
 }
 
-.interactive{
-    width:18rem; 
-}
-
 .interactive-img{
-    width: 100%;  
-    margin-right:7rem;          
+    width: 70%;
+    margin-right:7rem;  
+    overflow: hidden;
+    
 }
 
 .interactive-story{
-   margin: 0 0;
-   left: -4%;
-   width: 100%;
+   margin: 2rem 0;
+    left: -6%; 
+    width:100%;
+    bottom: -20%; 
        
 }
 
 .interactive-heading{
     padding: 0;
+    margin-top: 1rem;
 }
 
 
 .interactive-para{
-    font-size: .7rem;
-    margin: 0;    
+    font-size: 1rem;
+    margin: 0;
+    padding-bottom: 1rem;    
 }
 
 
@@ -302,53 +306,22 @@ a:hover {
 
 .creation-heading{
     text-align: center;
-    font-size: .9rem;
+    font-size: 1rem;
     
     
 }
 
 .creation-btn{
-    width: 5rem;
+   width: 5rem;
     font-size: .8rem;
     outline: none;
 
  } 
 
-/* .creation-btn-responsive{
-    margin-right: 12rem; 
-    color: hsl(0, 0, 0);
-    width: 6.8rem;
-    padding: .2rem;
-    height: 1.8rem;
-    background-color: white;
-    position: relative;
-    margin-top: 1.5rem;
-    left: 50%;
-    display: block;
 
-} */
-
-.creation-btn-responsive:hover{
-    background-color: hsl(0, 0%, 0%);
-    color: hsl(0, 0%, 100%);
-} 
-
-.creation-images{
-    display: flex; 
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    padding: 3rem;
-}
-
-
-
-.footer{
-    background-color: hsl(0, 0%, 0%);
-    color: white;
+.footer{   
     margin: 1rem 1rem;
-     height: 50vh;
+     height: 40vh;
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -366,20 +339,23 @@ a:hover {
 }
 
 .loop-footer{
-     margin-right: 0;
-     margin-bottom: 3rem;
+      padding-left: 1rem;
+    
+     
      
 }
 .social-icons{
     position: relative;
-    margin-top: 9rem;
+    margin-top: 14rem;
+    padding-left: 1rem;
+    
     
 }
 
 .nav-footer{
     display: flex;
     flex-direction: column;
-    margin-top: 0;
+    padding-top: 2rem;
     
 }
 
@@ -398,169 +374,130 @@ a:hover {
 }
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 610px){
     
 
  .header{
-    background: url(/images/desktop/image-hero.jpg) no-repeat center fixed ;
+    background: url(/images/desktop/image-hero.jpg) no-repeat center  ;
     background-size: cover;
     height: auto;
     overflow: hidden;
 
 }
 
-
- .interactive {
-    display: flex; 
-    flex-direction: column;
-    justify-content:  center;
-    align-items: center;
-    /* position: relative;  */
-    max-width: 100%;
-
+.interactive{
+    width: 28rem;
 }
-.interactive-img{
-  width: 70% ;
-  margin-left: 1rem;
-  margin-bottom: .5rem;
-  /* left: ; */
 
+.interactive-img{
+    width: 80%;
+    margin-right:7rem;  
+    overflow: hidden;
+    
 }
 
 .interactive-story{
-    position:inherit;
-    margin-right: 6rem;
-
-}
-.img-wrapper{
-    padding: 0;
-}
-
-  .img-wrapper img{
-     max-width: 100%;
-    /* height: min-content;  */
-    object-fit: cover ; 
-  }
-  
-  .immersive{
-    text-align: center;
-    font-size: 1.4rem;
-    padding-inline: 2rem;
-    padding: 1rem;
-    margin-bottom: 6rem;
-    letter-spacing: 1.5px;
-  }
-
-}
-
-@media screen and (max-width: 400px){
-
-    
-   .interactive {
-    display: flex; 
-    flex-direction: column;
-    justify-content:  center;
-    align-items: center;
-    /* position: relative;  */
-    max-width: 100%;
-
-}
-.interactive-img{
-  width: 70% ;
-  margin-left: 1rem;
-  margin-bottom: .5rem;
-  /* left: ; */
-}
-
-.interactive-story{
-    position:inherit;
-    margin-right: 6rem;
-
-}
-
-.interactive-heading{
-    text-transform: uppercase;
-    font-size: .8rem;
-    margin: 0;
-    padding: 0; 
-    
+   margin: 2rem 0;
+    left: -6%; 
+   width: 100%;
+    bottom: -20%; 
+       
 }
 
 .interactive-para{
-    font-size: .6rem;
-    max-width: 12rem;
-    height: 6rem;
-    margin: 0 0;
-    padding: 0;
-    /* margin-left: .1rem; */
-    
-}
-
-.creation-btn{
-    width: 5rem;
     font-size: .8rem;
-    /* outline: none; */
-    color: hsl(0, 0%, 0%);
-    border: 1px solid hsl(0, 0%, 0%);
-
- } 
+   
+} 
 
 .creation-images{
     display: flex;
-    flex-direction: column;
-    /* margin-left: 3rem; */
-    /* margin-right: 3rem; */
-    /* padding: 3rem; */
-   
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+     margin-left: 2rem;
+    margin-right: 2rem;
+    /* padding: 3rem;  */
 }
-    .img-wrapper img{ 
-     display: flex; 
-     flex-direction: column;
-     object-fit:cover ;
-     max-width: 100%;
-     height: auto;
-    /* /* max-width: 70%; */
+
+.img-wrapper{
+     margin: .5rem;
+}
+
+
+.img-wrapper{
+    position: relative;
+}
+
+ .img-heading{
+    position: absolute;
+    right: 40%;
+    color: hsl(0, 0%, 55%); 
     
- } 
-
- .list-item{
-    margin: .1rem .1;
- }
-
-.img-heading{
-    font-size: 1rem;
+    
 }
 
- .footer{
-    background-color: hsl(0, 0%, 0%);
-    color: white;
-     height: 30vh;
+
+}
+
+
+@media screen and (max-width:400px){
      
-}
 
-.footer-head{
-    margin: 0 0;
-    padding: 0 0;
-   
-}
-
-.nav-footer{
-    display: flex;
+    .immersive{
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid  hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    width: max-content;
+    padding: .7rem .7rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     
 }
 
-.nav-footer, .list-item-ft{
-    list-style-type: none;
-    font-size: .8rem;
+
+.interactive{
+    width: 20rem;
+     height: 15rem; 
+    overflow-x: hidden; 
 }
 
+.interactive-img{
+    position: relative; 
+    width: 70%;
+    margin-right:7rem;  
+    overflow: hidden;
+    top: -20%;
+
+
+    
+}
+
+.interactive-story{
+   margin: 2rem 0;
+    left: -2%; 
+   max-width: 60%;
+    bottom: -30%; 
+       
+}
+
+.interactive-para{
+    font-size: .7rem;
+   
+} 
+
+.creation-images{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+  
+    
+}
 
 .copy{
-    font-size: .5rem;
-    max-width: 11rem;
-    margin-left: 1rem;
-    padding-right: 1rem;
-    height: fit-content;
+    font-size: .8rem;
+    margin-left: .3rem;
 }
+
 
 }
