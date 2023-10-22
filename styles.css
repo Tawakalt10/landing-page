@@ -461,14 +461,14 @@ a:hover {
 
 
 .interactive{
-    width: 20rem;
-     height: 18rem; 
+   max-width: 20rem;
+    min-height: 20rem; 
     overflow-x: hidden; 
 }
 
 .interactive-img{
     position: relative; 
-    width: 50%;
+    max-width: 50%;
     margin-right:7rem;  
     overflow: hidden; 
     top: -20%;
