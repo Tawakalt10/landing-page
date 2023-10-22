@@ -440,7 +440,7 @@ a:hover {
 }
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
        .header {
     background: url(/images/desktop/image-hero.jpg)  center no-repeat ;
     background-size: cover; 
