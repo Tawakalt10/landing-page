@@ -463,7 +463,7 @@ a:hover {
 .interactive{
    max-width: 20rem;
     min-height: 20rem; 
-    overflow-x: hidden; 
+    /* overflow-x: hidden;   */
 }
 
 .interactive-img{
@@ -496,6 +496,10 @@ a:hover {
     justify-content: center;
   
     
+}
+
+.creation-head{
+    margin-top: 4rem;
 }
 
 .copy{
