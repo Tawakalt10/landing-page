@@ -217,7 +217,7 @@ a:hover {
     .header {
     background: url(/images/desktop/image-hero.jpg) no-repeat ;
     background-size: cover; 
-    height:auto ; 
+    height:90vh ; 
     
 }
 
@@ -458,13 +458,13 @@ a:hover {
 
 .interactive{
     width: 20rem;
-     height: 15rem; 
+     height: 18rem; 
     overflow-x: hidden; 
 }
 
 .interactive-img{
     position: relative; 
-    width: 70%;
+    width: 60%;
     margin-right:7rem;  
     overflow: hidden;
     top: -20%;
@@ -476,7 +476,7 @@ a:hover {
 .interactive-story{
    margin: 2rem 0;
     left: -2%; 
-   max-width: 60%;
+   max-width: 70%;
     bottom: -30%; 
        
 }
