@@ -442,7 +442,7 @@ a:hover {
 
 @media screen and (max-width:400px){
        .header {
-    background: url(/images/desktop/image-hero.jpg) no-repeat ;
+    background: url(/images/desktop/image-hero.jpg)  center no-repeat ;
     background-size: cover; 
     height:60vh ; 
     
@@ -455,8 +455,7 @@ a:hover {
     font-size: 1.5rem;
     width: max-content;
     padding: .7rem .7rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 10rem;
     
 }
 
@@ -471,7 +470,7 @@ a:hover {
     position: relative; 
     width: 60%;
     margin-right:7rem;  
-    overflow: hidden;
+    /* overflow: hidden; */
     top: -20%;
 
 
