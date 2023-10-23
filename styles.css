@@ -461,14 +461,14 @@ a:hover {
 
 
 .interactive{
-   /* max-width: 20rem;
-    min-height: 20rem;  */
-    /* overflow-x: hidden;   */
+   max-width: 20rem;
+    height: 25rem;  
+     /* overflow-x: hidden;      */
 }
 
 .interactive-img{
     width: 100%;
-    margin-right:7rem;  
+    margin-right:5rem;  
     overflow: hidden; 
     top: -20%;
 
@@ -511,7 +511,15 @@ a:hover {
     font-weight: bolder;
 }
 .creation-head{
-    margin-top: 4rem;
+    margin-top: 6rem;
+}
+
+footer{   
+    margin: 1rem 1rem;
+     height: 40vh;
+     display: flex;
+     
+     
 }
 
 .copy{
