@@ -461,14 +461,13 @@ a:hover {
 
 
 .interactive{
-   max-width: 20rem;
-    min-height: 20rem; 
+   /* max-width: 20rem;
+    min-height: 20rem;  */
     /* overflow-x: hidden;   */
 }
 
 .interactive-img{
-    position: relative; 
-    width: 80%;
+    width: 100%;
     margin-right:7rem;  
     overflow: hidden; 
     top: -20%;
@@ -479,9 +478,10 @@ a:hover {
 
 .interactive-story{
    margin: 2rem 0;
-    left: -2%; 
+    left: 5%; 
    max-width: 60%;
     bottom: -30%; 
+    text-align: justify;
        
 }
 
@@ -498,6 +498,18 @@ a:hover {
     
 }
 
+.creation-btn{
+   width: 5rem;
+    font-size: .8rem;
+    outline: none;
+    border: 1.5px solid hsl(0, 0%, 0%);
+    color: black;
+
+}
+.creation-btn:hover{
+    background-color: hsl(0, 0%, 0%);
+    font-weight: bolder;
+}
 .creation-head{
     margin-top: 4rem;
 }
