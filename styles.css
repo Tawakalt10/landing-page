@@ -70,10 +70,10 @@ a:hover {
 .immersive{
     text-transform: uppercase;
     border: 1px solid  hsl(0, 0%, 100%);
-    font-size: 1.5rem;
+    font-size: 2.3rem;
     width: max-content;
     padding: 1rem 1.5rem;
-    margin-top: 6rem;
+    margin-top: 12rem;
     margin-left: 4rem;
 }
 
