@@ -29,5 +29,3 @@ const navMenu = document.getElementById("nav-menu"),
 
       navLink.forEach(n => n.addEventListener("click", linkAction))
 
-
-      

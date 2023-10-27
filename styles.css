@@ -473,7 +473,7 @@ a:hover {
     top: -20%;
 
 
-    
+
 }
 
 .interactive-story{
@@ -489,6 +489,14 @@ a:hover {
     font-size: .7rem;
    
 } 
+.interactive-heading{
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin-bottom: .8rem;
+
+}
 
 .creation-images{
     display: flex;
